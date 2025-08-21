@@ -1,0 +1,41 @@
+
+*{box-sizing:border-box}body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;color:#111}
+a{color:inherit;text-decoration:none}
+.container{max-width:1100px;margin:0 auto;padding:1rem}
+.grid{display:grid;gap:1rem}
+.grid-2{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.card{border:1px solid #eee;border-radius:12px;padding:1rem;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.card img{width:100%;height:180px;object-fit:cover;border-radius:10px}
+.btn{display:inline-block;background:#111;color:#fff;border:none;border-radius:8px;padding:.65rem 1rem;cursor:pointer}
+.btn.secondary{background:#f2f2f2;color:#111;border:1px solid #ddd}
+.btn.link{background:transparent;color:#111;padding:0}
+.input, select, textarea{width:100%;padding:.6rem;border:1px solid #ddd;border-radius:8px}
+.row{display:flex;gap:.6rem;align-items:center}
+.nav{border-bottom:1px solid #eee}
+.nav a{padding:1rem;display:inline-block}
+.badge{background:#111;color:#fff;padding:.2rem .5rem;border-radius:6px;font-size:.8rem}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{border-bottom:1px solid #eee;padding:.6rem;text-align:left}
+
+/* Landing page hero background */
+.landing1{
+  background: url("https://livingkoselig.com/wp-content/uploads/2022/09/self-care-gift-basket.png") center/cover no-repeat;
+  min-height: 60vh;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.landing1::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: rgba(0,0,0,.45);
+}
+.landing1 .content{
+  position:relative;
+  color:#4230e3;
+  text-align:center;
+  padding:3rem 1rem;
+  max-width:900px;
+  margin:0 auto;
+}

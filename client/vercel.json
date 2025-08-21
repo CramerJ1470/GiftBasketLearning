@@ -1,0 +1,9 @@
+
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "https://YOUR-API-HOST.example.com/api/$1" },
+    { "source": "/(.*)", "destination": "/" }
+  ],
+  "trailingSlash": false
+}
