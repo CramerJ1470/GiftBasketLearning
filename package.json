@@ -9,8 +9,9 @@
     "dev:server": "npm run dev --prefix server",
     "dev:client": "npm run dev --prefix client",
     "start": "npm run start --prefix server",
-    "build": "npm run build --prefix client",
-    "vercel-build": "cd client && npm ci && npm run build"
+    
+    "build": "vite build"
+  
   },
   "author": "SillyNFTier",
   "license": "MIT",
