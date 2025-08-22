@@ -1,7 +1,7 @@
 {
   "name": "giftbaskets",
   "version": "1.0.0",
-  "description": "Gift basket wholesale app (React/Vite + Node/Express + MongoDB) \u2014 No Stripe",
+  "description": "Gift basket app built by ai",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,15 +9,12 @@
     "dev:server": "npm run dev --prefix server",
     "dev:client": "npm run dev --prefix client",
     "start": "npm run start --prefix server",
-    "build": "npm run build --prefix client"
+    "build": "npm run build --prefix client",
+    "vercel-build": "cd client && npm ci && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/example/giftbaskets.git"
-  },
-  "author": "You",
+  "author": "SillyNFTier",
   "license": "MIT",
   "devDependencies": {
-    "concurrently": "^9.0.0"
+    "concurrently": "^9.2.0"
   }
 }
